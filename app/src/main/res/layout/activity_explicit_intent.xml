@@ -10,6 +10,7 @@
     tools:context=".ExplicitIntentActivity">
 
     <TextView
+        android:id="@+id/nameInput"
         android:text="@string/explicit_intent"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -41,10 +42,12 @@
         </LinearLayout>
 
     <Button
+        android:id="@+id/submit"
         android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:onClick="displayText"
         />
 
     <TextView
